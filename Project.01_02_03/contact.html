@@ -16,10 +16,10 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<font size="4" >
-			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="blog.html">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="contact.html">Contact</a>
+			<a class="interactive-text" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="interactive-text" href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="interactive-text" href="blog.html">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="interactive-text" href="contact.html">Contact</a>
 		</font>
 	</h3>
 	<br />
@@ -32,12 +32,25 @@
 </body>
 <body align="center">
     <div class="container">
-        <h1>Contact</h1>
-        <p>Saran dan masukkan boleh sampaikan di link dibawah neh.. Thankyou!</p>
+        <h2>Contact</h2>
+        <p>Saran dan masukkan boleh sampaikan dibawah neh.. Thankyou!</p>
         <div class="contact-links">
-            <a href="https://www.instagram.com/daveposumah?igsh=N2d3ZmJjaWhtNjNh" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/share/HoDb3YUMCCX1Kg3s/?mibextid=qi2Omg" target="_blank">Facebook</a>
+            <a class="interactive-text" href="https://www.instagram.com/daveposumah?igsh=N2d3ZmJjaWhtNjNh" target="_blank">Instagram</a>
+            <a class="blue-interactive-text" href="https://www.facebook.com/share/HoDb3YUMCCX1Kg3s/?mibextid=qi2Omg" target="_blank">Facebook</a>
         </div>
     </div>
+	<br><br>
+	<div id="contact-form-container">
+        <h3 style="color:  black;">Disini neh!</h3>
+        <form id="contact-form">
+          <label for="name" style="color: black;">Nama:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email" style="color: black;">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message" style="color: black;">Pesan:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
 </body>
 </html>
